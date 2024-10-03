@@ -8,10 +8,10 @@ function Header() {
         {/* Top Right: Sign Up Button */}
         <div className="absolute right-4 top-4">
           <Link
-            to="/sign-in"
+            to="/sign-up"
             className="bg-white text-green-600 py-2 px-4 rounded-lg hover:bg-gray-200"
           >
-            Login
+            Sign Up
           </Link>
         </div>
 

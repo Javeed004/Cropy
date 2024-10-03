@@ -1,20 +1,27 @@
 import { React, useState } from "react";
 import { Link } from "react-router-dom";
-import { FaFacebook, FaGoogle, FaLinkedinIn, FaTwitter } from "react-icons/fa";
+import { FaFacebook, FaGoogle, FaLinkedinIn } from "react-icons/fa";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import WelcomeLogIn from "./Welcome";
 
 function SignUpPage() {
+
   const [name, setName] = useState();
   const [email, setEmail] = useState();
   const [password, setPassword] = useState();
+  const [phoneNum, setPhoneNum] = useState();
+  const [address, setAddress] = useState();
+  const navigate = useNavigate();
 
   const handleSubmit = (e) => {
     e.preventDefault();
     axios
-      .post("http://localhost:5173/sign-up", (name, email, password))
-      .then((result) => console.log(result))
+      .post("http://localhost:5173/sign-up", (name, email, password, phoneNum, address))
+      .then((result) => {
+        console.log(result);
+        navigate("/sign-in");
+      })
       .catch((error) => console.log(error));
   };
 
@@ -45,6 +52,18 @@ function SignUpPage() {
               placeholder="Email"
               className="outline-none bg-transparent border border-zinc-500 px-5 h-10 rounded-full "
               onChange={(e) => setEmail(e.target.value)}
+            ></input>
+            <input
+              type="number"
+              placeholder="Phone Number"
+              className="outline-none bg-transparent border border-zinc-500 px-5 h-10 rounded-full "
+              onChange={(e) => setPhoneNum(e.target.value)}
+            ></input>
+            <input
+              type="text"
+              placeholder="Address"
+              className="outline-none bg-transparent border border-zinc-500 px-5 h-10 rounded-full "
+              onChange={(e) => setAddress(e.target.value)}
             ></input>
             <input
               type="password"

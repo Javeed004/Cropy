@@ -1,6 +1,6 @@
 import { React, useState } from "react";
 import { Link } from "react-router-dom";
-import { FaFacebook, FaGoogle, FaLinkedinIn, FaTwitter } from "react-icons/fa";
+import { FaFacebook, FaGoogle, FaLinkedinIn } from "react-icons/fa";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import WelcomeLogIn from "./Welcome";
