@@ -1,0 +1,24 @@
+-----------------------------------------------------------------------------------------
+
+SETUP:
+
+On the Client Folder:
+
+Open the package.json and install all the dependencies using "npm i <name>" command
+
+On the Server Folder:
+Open the package.json and install all the dependencies using "npm i <name>" command
+install nodemon as dev dependencies 
+
+-----------------------------------------------------------------------------------------
+
+TO RUN THE SERVER: (After downloading the dependencies)
+
+On the Client Folder:
+Run this command "npm run dev"
+
+On the Server Folder:
+Run this command "npm start" 
+server.js is the main file in the backend
+
+-----------------------------------------------------------------------------------------
