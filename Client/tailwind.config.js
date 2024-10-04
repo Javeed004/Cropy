@@ -10,7 +10,7 @@ export default {
         primary : '#9DF578',
         primaryLight: '#C9F8D2',
         primaryBold : '#33860F',
-        gray :'rgb(51 65 85)',
+        customGray :'rgb(51 65 85)',
       }
     },
   },
