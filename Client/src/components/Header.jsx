@@ -16,8 +16,8 @@ function Header() {
         </div>
 
         {/* Centered Logo */}
-        <div className="flex justify-center">
-          <h1 className="text-white text-4xl font-bold">Cropy</h1>
+        <div className="flex justify-center items-center text-center">
+          <Link to='/' className="text-white text-4xl font-extrabold">Cropy</Link>
         </div>
 
         {/* Full Width Line Above Navigation */}

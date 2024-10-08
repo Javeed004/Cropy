@@ -1,9 +1,7 @@
-import {React, useState} from "react";
-import { Link } from "react-router-dom";
+import { React, useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 function PasswordChange() {
-  
   const [email, setEmail] = useState();
   const [password, setPassword] = useState();
   const [confirmPassword, setConfirmPassword] = useState();
@@ -35,6 +33,7 @@ function PasswordChange() {
             type="email"
             placeholder="Email"
             className="outline-none bg-transparent border border-zinc-400 h-10 px-5 rounded-full"
+            required
             onChange={(e) => setEmail(e.target.value)}
           ></input>
           <label className="font-sans font-semibold ">
@@ -44,6 +43,7 @@ function PasswordChange() {
             type="password"
             placeholder="New Password"
             className="outline-none bg-transparent border border-zinc-400 h-10 px-5 rounded-full"
+            required
             onChange={(e) => setPassword(e.target.value)}
           ></input>
           <label className="font-sans font-semibold ">
@@ -53,18 +53,19 @@ function PasswordChange() {
             type="password"
             placeholder="Confirm Password"
             className="outline-none bg-transparent border border-zinc-400 h-10 px-5 rounded-full"
+            required
             onChange={(e) => setConfirmPassword(e.target.value)}
           ></input>
         </div>
+        <div className="">
+          <button
+            type="submit"
+            className="text-white font-sans font-bold bg-green-400 rounded-full px-8 py-2 my-5"
+          >
+            CONFIRM
+          </button>
+        </div>
       </form>
-      <div className="">
-        <Link
-          to={"/sign-in"}
-          className="text-white font-sans font-bold bg-green-400 rounded-full px-8 py-2 my-5"
-        >
-          CONFIRM
-        </Link>
-      </div>
     </div>
   );
 }

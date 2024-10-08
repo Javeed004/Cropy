@@ -1,0 +1,465 @@
+[
+    {
+      "commonName": "Rice",
+      "bioName": "Oryza sativa",
+      "image": "./assets/Crop Images/rice.jpg",
+      "idealGrowingConditions": {
+        "temperature": "The optimal temperature for rice growth is between 20°C and 35°C.",
+        "soilType": "Rice thrives in clay or loamy soil with high water retention capacity.",
+        "rainfall": "Rice requires an average rainfall of 150 to 200 mm, making it ideal for regions with high humidity and seasonal rainfall."
+      },
+      "plantingTime": {
+        "sowingSeason": "Rice is best planted during the monsoon season, from June to August.",
+        "harvestingTime": "Rice can be harvested 90 to 120 days after sowing, depending on the variety."
+      },
+      "waterRequirements": "Rice is a water-intensive crop, requiring continuous water flooding during its vegetative stage.",
+      "expectedYield": "The average yield of rice is 4 to 6 tons per hectare, depending on soil fertility and water availability.",
+      "pestControl": {
+        "commonPests": "Common pests include the rice stem borer and brown planthopper.",
+        "controlMethods": "Control methods include using neem-based pesticides or rotating crops to reduce pest infestation."
+      },
+      "sustainabilityReason": "Sustainable rice farming practices help preserve water resources and improve soil health, ensuring long-term productivity while minimizing environmental impact."
+    },
+    {
+      "commonName": "Maize",
+      "bioName": "Zea mays",
+      "image": "./assets/Crop Images/maize.jpg",
+      "idealGrowingConditions": {
+        "temperature": "The ideal temperature for maize growth is between 20°C and 30°C.",
+        "soilType": "Maize prefers well-drained, fertile soils with good organic matter.",
+        "rainfall": "Maize requires about 500 to 800 mm of rainfall during the growing season."
+      },
+      "plantingTime": {
+        "sowingSeason": "Maize is typically sown in early spring or late winter.",
+        "harvestingTime": "Maize is usually harvested 90 to 100 days after sowing."
+      },
+      "waterRequirements": "Maize requires adequate moisture, especially during flowering and grain filling stages.",
+      "expectedYield": "The average yield of maize can range from 4 to 10 tons per hectare based on management practices.",
+      "pestControl": {
+        "commonPests": "Common pests include the European corn borer and rootworm.",
+        "controlMethods": "Control methods include crop rotation and the use of pest-resistant maize varieties."
+      },
+      "sustainabilityReason": "Sustainable maize production practices enhance biodiversity, reduce soil erosion, and promote sustainable use of natural resources."
+    },
+    {
+      "commonName": "Chickpea",
+      "bioName": "Cicer arietinum",
+      "image": "./assets/Crop Images/chickpea.jpg",
+      "idealGrowingConditions": {
+        "temperature": "Chickpeas grow best in temperatures between 20°C and 30°C.",
+        "soilType": "Chickpeas thrive in well-drained sandy or loamy soils with good fertility.",
+        "rainfall": "Chickpeas require 300 to 600 mm of rainfall annually."
+      },
+      "plantingTime": {
+        "sowingSeason": "Sow chickpeas in late winter to early spring.",
+        "harvestingTime": "Harvest chickpeas about 100 to 120 days after sowing."
+      },
+      "waterRequirements": "Chickpeas are drought-tolerant but require adequate moisture during flowering and pod development.",
+      "expectedYield": "Average yields range from 0.5 to 2 tons per hectare, depending on conditions.",
+      "pestControl": {
+        "commonPests": "Common pests include aphids and pod borers.",
+        "controlMethods": "Control methods include using insect-resistant varieties and crop rotation."
+      },
+      "sustainabilityReason": "Sustainable chickpea farming contributes to soil health through nitrogen fixation and helps in water conservation."
+    },
+    {
+      "commonName": "Kidney Bean",
+      "bioName": "Phaseolus vulgaris",
+      "image": "./assets/Crop Images/kidneybean.jpg",
+      "idealGrowingConditions": {
+        "temperature": "Kidney beans grow well in temperatures between 15°C and 30°C.",
+        "soilType": "They prefer well-drained sandy or loamy soils rich in organic matter.",
+        "rainfall": "Kidney beans require about 500 to 600 mm of rainfall during the growing season."
+      },
+      "plantingTime": {
+        "sowingSeason": "Sow kidney beans in spring after the last frost.",
+        "harvestingTime": "Harvest kidney beans about 90 to 120 days after planting."
+      },
+      "waterRequirements": "Adequate moisture is required during germination and flowering stages.",
+      "expectedYield": "Average yields can range from 1 to 3 tons per hectare.",
+      "pestControl": {
+        "commonPests": "Common pests include aphids and beetles.",
+        "controlMethods": "Utilizing resistant varieties and crop rotation can help manage pests."
+      },
+      "sustainabilityReason": "Sustainable kidney bean cultivation promotes crop rotation and enhances soil health."
+    },
+    {
+      "commonName": "Pigeon Pea",
+      "bioName": "Cajanus cajan",
+      "image": "./assets/Crop Images/pigeonpea.jpg",
+      "idealGrowingConditions": {
+        "temperature": "The ideal temperature for pigeon peas is between 20°C and 35°C.",
+        "soilType": "Pigeon peas thrive in well-drained sandy or loamy soils.",
+        "rainfall": "They require about 600 to 1,000 mm of rainfall annually."
+      },
+      "plantingTime": {
+        "sowingSeason": "Sow pigeon peas at the beginning of the rainy season.",
+        "harvestingTime": "Harvest after about 120 to 180 days."
+      },
+      "waterRequirements": "They are drought-resistant but need adequate moisture during flowering.",
+      "expectedYield": "Average yield is around 0.5 to 1 ton per hectare.",
+      "pestControl": {
+        "commonPests": "Common pests include pod borers and aphids.",
+        "controlMethods": "Intercropping and using resistant varieties are effective control methods."
+      },
+      "sustainabilityReason": "Sustainable pigeon pea farming improves soil fertility and promotes biodiversity."
+    },
+    {
+      "commonName": "Moth Bean",
+      "bioName": "Vigna aconitifolia",
+      "image": "./assets/Crop Images/mothbean.jpg",
+      "idealGrowingConditions": {
+        "temperature": "Moth beans grow best in temperatures ranging from 20°C to 35°C.",
+        "soilType": "They thrive in sandy or gravelly soils with good drainage.",
+        "rainfall": "Moth beans require about 400 to 600 mm of rainfall annually."
+      },
+      "plantingTime": {
+        "sowingSeason": "Sow moth beans in spring.",
+        "harvestingTime": "Harvest after about 70 to 90 days."
+      },
+      "waterRequirements": "They are drought-tolerant and require less water than other legumes.",
+      "expectedYield": "Average yields are about 0.5 to 1 ton per hectare.",
+      "pestControl": {
+        "commonPests": "Common pests include aphids and caterpillars.",
+        "controlMethods": "Manual removal and neem-based pesticides are effective."
+      },
+      "sustainabilityReason": "Sustainable moth bean cultivation contributes to soil health and requires less water."
+    },
+    {
+      "commonName": "Mung Bean",
+      "bioName": "Vigna radiata",
+      "image": "./assets/Crop Images/mungbean.jpg",
+      "idealGrowingConditions": {
+        "temperature": "Mung beans grow best in temperatures between 20°C and 35°C.",
+        "soilType": "They prefer well-drained, sandy or loamy soils.",
+        "rainfall": "Mung beans require about 600 to 1,200 mm of rainfall annually."
+      },
+      "plantingTime": {
+        "sowingSeason": "Sow mung beans in spring or summer.",
+        "harvestingTime": "Harvest after about 60 to 80 days."
+      },
+      "waterRequirements": "Mung beans need adequate moisture, especially during flowering.",
+      "expectedYield": "Average yields can range from 0.5 to 1.5 tons per hectare.",
+      "pestControl": {
+        "commonPests": "Common pests include aphids and thrips.",
+        "controlMethods": "Intercropping and organic pest control methods are effective."
+      },
+      "sustainabilityReason": "Sustainable mung bean farming improves soil fertility and enhances biodiversity."
+    },
+    {
+      "commonName": "Black Gram",
+      "bioName": "Vigna mungo",
+      "image": "./assets/Crop Images/blackgram.jpg",
+      "idealGrowingConditions": {
+        "temperature": "Black gram grows best in temperatures ranging from 20°C to 35°C.",
+        "soilType": "They prefer well-drained, sandy or loamy soils.",
+        "rainfall": "Black gram requires about 600 to 1,200 mm of rainfall annually."
+      },
+      "plantingTime": {
+        "sowingSeason": "Sow black gram in the kharif season.",
+        "harvestingTime": "Harvest after about 70 to 90 days."
+      },
+      "waterRequirements": "They need adequate moisture during the flowering stage.",
+      "expectedYield": "Average yields range from 0.5 to 1.2 tons per hectare.",
+      "pestControl": {
+        "commonPests": "Common pests include aphids and caterpillars.",
+        "controlMethods": "Using organic pest control and resistant varieties can be effective."
+      },
+      "sustainabilityReason": "Sustainable black gram farming promotes soil health and nitrogen fixation."
+    },
+    {
+      "commonName": "Lentil",
+      "bioName": "Lens culinaris",
+      "image": "./assets/Crop Images/lentil.jpg",
+      "idealGrowingConditions": {
+        "temperature": "Lentils thrive in temperatures between 15°C and 25°C.",
+        "soilType": "They prefer well-drained, fertile soils.",
+        "rainfall": "Lentils require about 300 to 600 mm of rainfall annually."
+      },
+      "plantingTime": {
+        "sowingSeason": "Sow lentils in early spring.",
+        "harvestingTime": "Harvest after about 90 to 110 days."
+      },
+      "waterRequirements": "Lentils are drought-tolerant but need moisture during germination.",
+      "expectedYield": "Average yields range from 0.5 to 1.5 tons per hectare.",
+      "pestControl": {
+        "commonPests": "Common pests include aphids and weevils.",
+        "controlMethods": "Crop rotation and using resistant varieties are effective strategies."
+      },
+      "sustainabilityReason": "Sustainable lentil farming practices improve soil health and reduce reliance on chemical fertilizers."
+    },
+    {
+      "commonName": "Pomegranate",
+      "bioName": "Punica granatum",
+      "image": "./assets/Crop Images/pomegranate.jpg",
+      "idealGrowingConditions": {
+        "temperature": "Pomegranates thrive in temperatures between 20°C and 30°C.",
+        "soilType": "They prefer well-drained sandy or loamy soils.",
+        "rainfall": "Pomegranates require about 300 to 500 mm of rainfall annually."
+      },
+      "plantingTime": {
+        "sowingSeason": "Sow pomegranate seeds in spring.",
+        "harvestingTime": "Harvest after about 5 to 7 months."
+      },
+      "waterRequirements": "Pomegranates need regular watering, especially during dry spells.",
+      "expectedYield": "Average yields can range from 5 to 15 tons per hectare.",
+      "pestControl": {
+        "commonPests": "Common pests include fruit flies and aphids.",
+        "controlMethods": "Using netting and organic pest control methods are effective."
+      },
+      "sustainabilityReason": "Sustainable pomegranate farming practices promote biodiversity and efficient water use."
+    },
+    {
+      "commonName": "Banana",
+      "bioName": "Musa",
+      "image": "./assets/Crop Images/banana.jpg",
+      "idealGrowingConditions": {
+        "temperature": "Bananas thrive in warm temperatures between 26°C and 30°C.",
+        "soilType": "They prefer rich, well-drained soils with good organic matter.",
+        "rainfall": "Bananas require about 1,500 to 2,000 mm of rainfall annually."
+      },
+      "plantingTime": {
+        "sowingSeason": "Plant bananas year-round in suitable climates.",
+        "harvestingTime": "Harvest after about 9 to 12 months."
+      },
+      "waterRequirements": "Bananas require regular watering, particularly during dry periods.",
+      "expectedYield": "Average yields can reach up to 30 tons per hectare.",
+      "pestControl": {
+        "commonPests": "Common pests include banana weevils and aphids.",
+        "controlMethods": "Using organic pest control and resistant varieties are effective."
+      },
+      "sustainabilityReason": "Sustainable banana farming practices improve soil health and reduce chemical inputs."
+    },
+    {
+      "commonName": "Mango",
+      "bioName": "Mangifera indica",
+      "image": "./assets/Crop Images/mango.jpg",
+      "idealGrowingConditions": {
+        "temperature": "Mango trees thrive in warm climates between 24°C and 30°C.",
+        "soilType": "They prefer well-drained sandy or loamy soils.",
+        "rainfall": "Mango trees require about 500 to 1,000 mm of rainfall annually."
+      },
+      "plantingTime": {
+        "sowingSeason": "Mango seeds are best sown in spring.",
+        "harvestingTime": "Harvest mangoes after about 3 to 5 months."
+      },
+      "waterRequirements": "Mango trees need adequate moisture during flowering and fruit development.",
+      "expectedYield": "Average yields can range from 5 to 15 tons per hectare.",
+      "pestControl": {
+        "commonPests": "Common pests include mango weevils and fruit flies.",
+        "controlMethods": "Using pheromone traps and organic pesticides can help."
+      },
+      "sustainabilityReason": "Sustainable mango farming practices enhance biodiversity and soil health."
+    },
+    {
+      "commonName": "Grapes",
+      "bioName": "Vitis vinifera",
+      "image": "./assets/Crop Images/grapes.jpg",
+      "idealGrowingConditions": {
+        "temperature": "Grapes thrive in warm temperatures between 20°C and 30°C.",
+        "soilType": "They prefer well-drained sandy or loamy soils.",
+        "rainfall": "Grapes require about 500 to 800 mm of rainfall annually."
+      },
+      "plantingTime": {
+        "sowingSeason": "Plant grapevines in early spring.",
+        "harvestingTime": "Harvest grapes after about 100 to 120 days."
+      },
+      "waterRequirements": "Grapes require moderate watering, particularly during fruit development.",
+      "expectedYield": "Average yields can range from 5 to 10 tons per hectare.",
+      "pestControl": {
+        "commonPests": "Common pests include grape berry moths and aphids.",
+        "controlMethods": "Integrated pest management techniques are effective."
+      },
+      "sustainabilityReason": "Sustainable grape farming practices reduce chemical use and promote biodiversity."
+    },
+    {
+      "commonName": "Watermelon",
+      "bioName": "Citrullus lanatus",
+      "image": "./assets/Crop Images/watermelon.jpg",
+      "idealGrowingConditions": {
+        "temperature": "Watermelons thrive in warm temperatures between 20°C and 30°C.",
+        "soilType": "They prefer well-drained sandy soils.",
+        "rainfall": "Watermelons require about 500 to 800 mm of rainfall annually."
+      },
+      "plantingTime": {
+        "sowingSeason": "Plant watermelons in late spring.",
+        "harvestingTime": "Harvest watermelons after about 80 to 90 days."
+      },
+      "waterRequirements": "Watermelons need consistent moisture, particularly during fruit growth.",
+      "expectedYield": "Average yields can reach up to 20 tons per hectare.",
+      "pestControl": {
+        "commonPests": "Common pests include aphids and cucumber beetles.",
+        "controlMethods": "Using organic pesticides and crop rotation can help manage pests."
+      },
+      "sustainabilityReason": "Sustainable watermelon farming practices reduce water usage and enhance soil quality."
+    },
+    {
+      "commonName": "Muskmelon",
+      "bioName": "Cucumis melo",
+      "image": "./assets/Crop Images/muskmelon.jpg",
+      "idealGrowingConditions": {
+        "temperature": "Muskmelons thrive in warm temperatures between 20°C and 30°C.",
+        "soilType": "They prefer well-drained sandy or loamy soils.",
+        "rainfall": "Muskmelons require about 500 to 800 mm of rainfall annually."
+      },
+      "plantingTime": {
+        "sowingSeason": "Plant muskmelons in late spring.",
+        "harvestingTime": "Harvest after about 80 to 90 days."
+      },
+      "waterRequirements": "Muskmelons need consistent moisture, especially during fruit development.",
+      "expectedYield": "Average yields can reach up to 15 tons per hectare.",
+      "pestControl": {
+        "commonPests": "Common pests include aphids and melon worms.",
+        "controlMethods": "Using crop rotation and organic pesticides can help manage pests."
+      },
+      "sustainabilityReason": "Sustainable muskmelon farming practices reduce chemical use and improve soil health."
+    },
+    {
+      "commonName": "Apple",
+      "bioName": "Malus domestica",
+      "image": "./assets/Crop Images/apple.jpg",
+      "idealGrowingConditions": {
+        "temperature": "Apple trees thrive in temperatures between 15°C and 24°C.",
+        "soilType": "They prefer well-drained, fertile soils with good organic matter.",
+        "rainfall": "Apple trees require about 600 to 800 mm of rainfall annually."
+      },
+      "plantingTime": {
+        "sowingSeason": "Plant apple seeds in early spring.",
+        "harvestingTime": "Harvest apples after about 4 to 6 months."
+      },
+      "waterRequirements": "Apple trees need regular watering, particularly during dry spells.",
+      "expectedYield": "Average yields can range from 10 to 20 tons per hectare.",
+      "pestControl": {
+        "commonPests": "Common pests include codling moths and aphids.",
+        "controlMethods": "Integrated pest management techniques are effective."
+      },
+      "sustainabilityReason": "Sustainable apple farming practices enhance soil health and reduce chemical inputs."
+    },
+    {
+      "commonName": "Orange",
+      "bioName": "Citrus × sinensis",
+      "image": "./assets/Crop Images/orange.jpg",
+      "idealGrowingConditions": {
+        "temperature": "Orange trees thrive in warm temperatures between 20°C and 30°C.",
+        "soilType": "They prefer well-drained sandy soils.",
+        "rainfall": "Orange trees require about 500 to 1,200 mm of rainfall annually."
+      },
+      "plantingTime": {
+        "sowingSeason": "Plant orange seeds in spring.",
+        "harvestingTime": "Harvest oranges after about 7 to 12 months."
+      },
+      "waterRequirements": "Orange trees need regular watering, especially during fruit development.",
+      "expectedYield": "Average yields can range from 10 to 20 tons per hectare.",
+      "pestControl": {
+        "commonPests": "Common pests include aphids and citrus leaf miners.",
+        "controlMethods": "Using organic pest control methods is effective."
+      },
+      "sustainabilityReason": "Sustainable orange farming practices promote biodiversity and reduce chemical use."
+    },
+    {
+      "commonName": "Papaya",
+      "bioName": "Carica papaya",
+      "image": "./assets/Crop Images/papaya.jpg",
+      "idealGrowingConditions": {
+        "temperature": "Papaya plants thrive in warm temperatures between 20°C and 30°C.",
+        "soilType": "They prefer well-drained, sandy soils.",
+        "rainfall": "Papaya requires about 800 to 1,200 mm of rainfall annually."
+      },
+      "plantingTime": {
+        "sowingSeason": "Plant papaya seeds in spring.",
+        "harvestingTime": "Harvest papayas after about 6 to 12 months."
+      },
+      "waterRequirements": "Papayas need consistent moisture, especially during fruit development.",
+      "expectedYield": "Average yields can reach up to 10 tons per hectare.",
+      "pestControl": {
+        "commonPests": "Common pests include aphids and fruit flies.",
+        "controlMethods": "Using organic pesticides and integrated pest management is effective."
+      },
+      "sustainabilityReason": "Sustainable papaya farming practices improve soil health and reduce chemical inputs."
+    },
+    {
+      "commonName": "Coconut",
+      "bioName": "Cocos nucifera",
+      "image": "./assets/Crop Images/coconut.jpg",
+      "idealGrowingConditions": {
+        "temperature": "Coconuts thrive in warm, tropical climates between 25°C and 30°C.",
+        "soilType": "They prefer sandy, well-drained soils.",
+        "rainfall": "Coconuts require about 1,500 to 2,500 mm of rainfall annually."
+      },
+      "plantingTime": {
+        "sowingSeason": "Plant coconuts year-round in tropical climates.",
+        "harvestingTime": "Harvest coconuts after about 5 to 7 months."
+      },
+      "waterRequirements": "Coconuts need regular watering, especially during dry spells.",
+      "expectedYield": "Average yields can reach up to 100 nuts per tree annually.",
+      "pestControl": {
+        "commonPests": "Common pests include coconut beetles and leaf blight.",
+        "controlMethods": "Using organic pest control and resistant varieties is effective."
+      },
+      "sustainabilityReason": "Sustainable coconut farming practices promote biodiversity and efficient water use."
+    },
+    {
+      "commonName": "Cotton",
+      "bioName": "Gossypium",
+      "image": "./assets/Crop Images/cotton.jpg",
+      "idealGrowingConditions": {
+        "temperature": "Cotton thrives in warm temperatures between 20°C and 30°C.",
+        "soilType": "They prefer well-drained, fertile soils.",
+        "rainfall": "Cotton requires about 500 to 1,000 mm of rainfall annually."
+      },
+      "plantingTime": {
+        "sowingSeason": "Sow cotton seeds in spring.",
+        "harvestingTime": "Harvest cotton after about 5 to 6 months."
+      },
+      "waterRequirements": "Cotton plants need consistent moisture, particularly during flowering.",
+      "expectedYield": "Average yields can range from 0.5 to 1.5 tons per hectare.",
+      "pestControl": {
+        "commonPests": "Common pests include boll weevils and aphids.",
+        "controlMethods": "Integrated pest management and organic control methods are effective."
+      },
+      "sustainabilityReason": "Sustainable cotton farming practices reduce chemical use and enhance soil health."
+    },
+    {
+      "commonName": "Jute",
+      "bioName": "Corchorus",
+      "image": "./assets/Crop Images/jute.jpg",
+      "idealGrowingConditions": {
+        "temperature": "Jute thrives in warm temperatures between 25°C and 35°C.",
+        "soilType": "They prefer well-drained, fertile soils.",
+        "rainfall": "Jute requires about 1,000 to 2,000 mm of rainfall annually."
+      },
+      "plantingTime": {
+        "sowingSeason": "Sow jute seeds in late spring.",
+        "harvestingTime": "Harvest jute after about 3 to 4 months."
+      },
+      "waterRequirements": "Jute plants need consistent moisture, especially during growth.",
+      "expectedYield": "Average yields can reach up to 2 tons per hectare.",
+      "pestControl": {
+        "commonPests": "Common pests include jute stem weevils and aphids.",
+        "controlMethods": "Using integrated pest management is effective."
+      },
+      "sustainabilityReason": "Sustainable jute farming practices enhance soil health and reduce chemical use."
+    },
+    {
+      "commonName": "Coffee",
+      "bioName": "Coffea",
+      "image": "./assets/Crop Images/coffee.jpg",
+      "idealGrowingConditions": {
+        "temperature": "Coffee plants thrive in temperatures between 15°C and 24°C.",
+        "soilType": "They prefer well-drained, fertile soils rich in organic matter.",
+        "rainfall": "Coffee requires about 1,200 to 2,000 mm of rainfall annually."
+      },
+      "plantingTime": {
+        "sowingSeason": "Plant coffee seeds in spring.",
+        "harvestingTime": "Harvest coffee beans after about 3 to 5 years."
+      },
+      "waterRequirements": "Coffee plants need consistent moisture, particularly during flowering and fruit development.",
+      "expectedYield": "Average yields can reach up to 2 tons per hectare.",
+      "pestControl": {
+        "commonPests": "Common pests include coffee borer beetles and leaf rust.",
+        "controlMethods": "Using organic pest control and resistant varieties is effective."
+      },
+      "sustainabilityReason": "Sustainable coffee farming practices enhance biodiversity and soil health."
+    }
+  ]
+  

@@ -6,18 +6,21 @@ import { useNavigate } from "react-router-dom";
 import WelcomeLogIn from "./Welcome";
 
 function SignUpPage() {
-
   const [name, setName] = useState();
   const [email, setEmail] = useState();
   const [password, setPassword] = useState();
   const [phoneNum, setPhoneNum] = useState();
   const [address, setAddress] = useState();
+
   const navigate = useNavigate();
 
   const handleSubmit = (e) => {
     e.preventDefault();
     axios
-      .post("http://localhost:5173/sign-up", (name, email, password, phoneNum, address))
+      .post(
+        "http://localhost:5173/sign-up",
+        (name, email, password, phoneNum, address)
+      )
       .then((result) => {
         console.log(result);
         navigate("/sign-in");
@@ -45,45 +48,50 @@ function SignUpPage() {
               type="text"
               placeholder="Name"
               className="outline-none bg-transparent border border-zinc-500 px-5 h-10 rounded-full "
+              required
               onChange={(e) => setName(e.target.value)}
             ></input>
             <input
               type="email"
               placeholder="Email"
               className="outline-none bg-transparent border border-zinc-500 px-5 h-10 rounded-full "
+              required
               onChange={(e) => setEmail(e.target.value)}
             ></input>
             <input
               type="number"
               placeholder="Phone Number"
               className="outline-none bg-transparent border border-zinc-500 px-5 h-10 rounded-full "
+              required
               onChange={(e) => setPhoneNum(e.target.value)}
             ></input>
             <input
               type="text"
               placeholder="Address"
               className="outline-none bg-transparent border border-zinc-500 px-5 h-10 rounded-full "
+              required
               onChange={(e) => setAddress(e.target.value)}
             ></input>
             <input
               type="password"
               placeholder="Password"
               className="outline-none bg-transparent border border-zinc-500 px-5 h-10 rounded-full "
+              required
               onChange={(e) => setPassword(e.target.value)}
             ></input>
           </div>
-        </form>
-        <Link to={"/sign-in"} className="text-blue-600 text-sm underline">
-          <p>Already have an account</p>
-        </Link>
-        <div>
-          <Link
-            to="/sign-in"
-            className="font-bold text-white bg-green-400 px-10 py-2 rounded-full"
-          >
-            SIGN UP
+          <Link to={"//sign-up/sign-in"} className="text-blue-600 text-sm underline m-1">
+            <p>Already have an account</p>
           </Link>
-        </div>
+          <div>
+            <button
+              type="submit"
+              className="font-bold text-white bg-green-400 px-10 py-2 rounded-full m-0"
+            >
+              SIGN UP
+            </button>
+          </div>
+        </form>
       </div>
     </div>
   );

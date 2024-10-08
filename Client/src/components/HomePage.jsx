@@ -17,7 +17,7 @@ function HomePage() {
         style={{ backgroundImage: `url(${bgImageHero})` }}
       >
         {/* Center Text */}
-        <div className="absolute top-64 justify-center items-center text-primaryBold text-5xl text-bold">
+        <div className="absolute top-64 justify-center items-center text-center text-primaryBold text-5xl text-bold">
           Smart Farming, Better Tomorrow
         </div>
 
@@ -99,7 +99,7 @@ function HomePage() {
         How Cropy Works
       </div>
       <div className="grid grid-cols-3 gap-4 m-8">
-        <div className="p-6 bg-slate-300 rounded-lg shadow-lg">
+        <div className="p-6 bg-slate-300 rounded-lg ">
           <div className="text-2xl font-medium text-center mb-2">
             Input Soil Data
           </div>
@@ -109,7 +109,7 @@ function HomePage() {
           </div>
         </div>
 
-        <div className="p-6 bg-slate-200 rounded-lg shadow-lg">
+        <div className="p-6 bg-slate-200 rounded-lg ">
           <div className="text-2xl font-medium text-center mb-2">
             Analyze Environment
           </div>
@@ -119,7 +119,7 @@ function HomePage() {
           </div>
         </div>
 
-        <div className="p-6 bg-slate-100 rounded-lg shadow-lg">
+        <div className="p-6 bg-slate-100 rounded-lg ">
           <div className="text-2xl font-medium text-center mb-2">
             Receive Recommendations
           </div>

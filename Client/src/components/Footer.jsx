@@ -4,7 +4,8 @@ import imageContact from "../assets/Images/pexels-akilmazumder-1072824.jpg";
 
 function Footer() {
   return (
-    <div className="flex flex-row h-80 m-0 bg-primaryLight ">
+    <footer className="flex flex-row h-80 m-0 bg-primaryLight ">
+        {/* Banner Image */}
         <div className="w-1/2 p-0">
           <img
             src={imageContact}
@@ -12,7 +13,7 @@ function Footer() {
             className="object-cover h-full w-full"
           />
         </div>
-
+        {/* Content */}
         <div className="w-1/2 p-6">
           <div className="text-3xl mb-4 font-bold">
             Join the Cropy Movement→
@@ -22,7 +23,8 @@ function Footer() {
             researcher, or partner, join us in revolutionizing agriculture with
             technology.
           </div>
-          <div className="mt-4 py-4 space-x-4">
+          {/* Call-To-Action */}
+          <nav className="mt-4 py-4 space-x-4">
             <Link
               to="/sign-up"
               className="text-xl text-white bg-green-400 px-12 py-4 rounded-xl "
@@ -35,9 +37,9 @@ function Footer() {
             >
               CONTACT
             </Link>
-          </div>
+          </nav>
         </div>
-      </div>
+      </footer>
   )
 }
 

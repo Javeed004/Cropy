@@ -10,15 +10,8 @@ function About() {
       {/* Header Section */}
       <Header />
 
-      {/* Hero Section */}
-      <div className="flex relative bg-white h-screen w-full justify-center items-center text-center">
-        <div className="font-sans text-5xl text-primaryBold absolute top-80 justify-center items-center ">
-          About Us
-        </div>
-      </div>
-
       {/* About Cropy Section   */}
-      <div className="flex flex-row h-96 w-full mt-8 mb-4 bg-green-200 font-semibold">
+      <div className="flex flex-row h-96 w-full mt-6 mb-4 bg-green-200 font-semibold">
         <div className="w-1/2 p-6">
           <div className="text-4xl mb-4 font-bold">About Cropy</div>
           <div className="text-2xl">
