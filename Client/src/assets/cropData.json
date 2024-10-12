@@ -2,7 +2,7 @@
     {
       "commonName": "Rice",
       "bioName": "Oryza sativa",
-      "image": "./assets/Crop Images/rice.jpg",
+      "image": "rice.jpg",
       "idealGrowingConditions": {
         "temperature": "The optimal temperature for rice growth is between 20°C and 35°C.",
         "soilType": "Rice thrives in clay or loamy soil with high water retention capacity.",
@@ -23,7 +23,7 @@
     {
       "commonName": "Maize",
       "bioName": "Zea mays",
-      "image": "./assets/Crop Images/maize.jpg",
+      "image": "maize.jpg",
       "idealGrowingConditions": {
         "temperature": "The ideal temperature for maize growth is between 20°C and 30°C.",
         "soilType": "Maize prefers well-drained, fertile soils with good organic matter.",
@@ -44,7 +44,7 @@
     {
       "commonName": "Chickpea",
       "bioName": "Cicer arietinum",
-      "image": "./assets/Crop Images/chickpea.jpg",
+      "image": "chickpeas.jpg",
       "idealGrowingConditions": {
         "temperature": "Chickpeas grow best in temperatures between 20°C and 30°C.",
         "soilType": "Chickpeas thrive in well-drained sandy or loamy soils with good fertility.",
@@ -65,7 +65,7 @@
     {
       "commonName": "Kidney Bean",
       "bioName": "Phaseolus vulgaris",
-      "image": "./assets/Crop Images/kidneybean.jpg",
+      "image": "kidneybean.jpg",
       "idealGrowingConditions": {
         "temperature": "Kidney beans grow well in temperatures between 15°C and 30°C.",
         "soilType": "They prefer well-drained sandy or loamy soils rich in organic matter.",
@@ -86,7 +86,7 @@
     {
       "commonName": "Pigeon Pea",
       "bioName": "Cajanus cajan",
-      "image": "./assets/Crop Images/pigeonpea.jpg",
+      "image": "pigeonpea.jpg",
       "idealGrowingConditions": {
         "temperature": "The ideal temperature for pigeon peas is between 20°C and 35°C.",
         "soilType": "Pigeon peas thrive in well-drained sandy or loamy soils.",
@@ -107,7 +107,7 @@
     {
       "commonName": "Moth Bean",
       "bioName": "Vigna aconitifolia",
-      "image": "./assets/Crop Images/mothbean.jpg",
+      "image": "mothbean.jpg",
       "idealGrowingConditions": {
         "temperature": "Moth beans grow best in temperatures ranging from 20°C to 35°C.",
         "soilType": "They thrive in sandy or gravelly soils with good drainage.",
@@ -128,7 +128,7 @@
     {
       "commonName": "Mung Bean",
       "bioName": "Vigna radiata",
-      "image": "./assets/Crop Images/mungbean.jpg",
+      "image": "mungbeans.jpg",
       "idealGrowingConditions": {
         "temperature": "Mung beans grow best in temperatures between 20°C and 35°C.",
         "soilType": "They prefer well-drained, sandy or loamy soils.",
@@ -149,7 +149,7 @@
     {
       "commonName": "Black Gram",
       "bioName": "Vigna mungo",
-      "image": "./assets/Crop Images/blackgram.jpg",
+      "image": "blackgram.jpg",
       "idealGrowingConditions": {
         "temperature": "Black gram grows best in temperatures ranging from 20°C to 35°C.",
         "soilType": "They prefer well-drained, sandy or loamy soils.",
@@ -170,7 +170,7 @@
     {
       "commonName": "Lentil",
       "bioName": "Lens culinaris",
-      "image": "./assets/Crop Images/lentil.jpg",
+      "image": "lentils.jpg",
       "idealGrowingConditions": {
         "temperature": "Lentils thrive in temperatures between 15°C and 25°C.",
         "soilType": "They prefer well-drained, fertile soils.",
@@ -191,7 +191,7 @@
     {
       "commonName": "Pomegranate",
       "bioName": "Punica granatum",
-      "image": "./assets/Crop Images/pomegranate.jpg",
+      "image": "pomegranate.jpg",
       "idealGrowingConditions": {
         "temperature": "Pomegranates thrive in temperatures between 20°C and 30°C.",
         "soilType": "They prefer well-drained sandy or loamy soils.",
@@ -212,7 +212,7 @@
     {
       "commonName": "Banana",
       "bioName": "Musa",
-      "image": "./assets/Crop Images/banana.jpg",
+      "image": "banana.jpg",
       "idealGrowingConditions": {
         "temperature": "Bananas thrive in warm temperatures between 26°C and 30°C.",
         "soilType": "They prefer rich, well-drained soils with good organic matter.",
@@ -233,7 +233,7 @@
     {
       "commonName": "Mango",
       "bioName": "Mangifera indica",
-      "image": "./assets/Crop Images/mango.jpg",
+      "image": "mango.jpg",
       "idealGrowingConditions": {
         "temperature": "Mango trees thrive in warm climates between 24°C and 30°C.",
         "soilType": "They prefer well-drained sandy or loamy soils.",
@@ -254,7 +254,7 @@
     {
       "commonName": "Grapes",
       "bioName": "Vitis vinifera",
-      "image": "./assets/Crop Images/grapes.jpg",
+      "image": "grapes.jpg",
       "idealGrowingConditions": {
         "temperature": "Grapes thrive in warm temperatures between 20°C and 30°C.",
         "soilType": "They prefer well-drained sandy or loamy soils.",
@@ -275,7 +275,7 @@
     {
       "commonName": "Watermelon",
       "bioName": "Citrullus lanatus",
-      "image": "./assets/Crop Images/watermelon.jpg",
+      "image": "watermelon.jpg",
       "idealGrowingConditions": {
         "temperature": "Watermelons thrive in warm temperatures between 20°C and 30°C.",
         "soilType": "They prefer well-drained sandy soils.",
@@ -296,7 +296,7 @@
     {
       "commonName": "Muskmelon",
       "bioName": "Cucumis melo",
-      "image": "./assets/Crop Images/muskmelon.jpg",
+      "image": "muskmelon.jpg",
       "idealGrowingConditions": {
         "temperature": "Muskmelons thrive in warm temperatures between 20°C and 30°C.",
         "soilType": "They prefer well-drained sandy or loamy soils.",
@@ -317,7 +317,7 @@
     {
       "commonName": "Apple",
       "bioName": "Malus domestica",
-      "image": "./assets/Crop Images/apple.jpg",
+      "image": "apple.jpg",
       "idealGrowingConditions": {
         "temperature": "Apple trees thrive in temperatures between 15°C and 24°C.",
         "soilType": "They prefer well-drained, fertile soils with good organic matter.",
@@ -337,8 +337,8 @@
     },
     {
       "commonName": "Orange",
-      "bioName": "Citrus × sinensis",
-      "image": "./assets/Crop Images/orange.jpg",
+      "bioName": "Citrus sinensis",
+      "image": "orange.jpg",
       "idealGrowingConditions": {
         "temperature": "Orange trees thrive in warm temperatures between 20°C and 30°C.",
         "soilType": "They prefer well-drained sandy soils.",
@@ -359,7 +359,7 @@
     {
       "commonName": "Papaya",
       "bioName": "Carica papaya",
-      "image": "./assets/Crop Images/papaya.jpg",
+      "image": "papaya.jpg",
       "idealGrowingConditions": {
         "temperature": "Papaya plants thrive in warm temperatures between 20°C and 30°C.",
         "soilType": "They prefer well-drained, sandy soils.",
@@ -380,7 +380,7 @@
     {
       "commonName": "Coconut",
       "bioName": "Cocos nucifera",
-      "image": "./assets/Crop Images/coconut.jpg",
+      "image": "coconut.jpg",
       "idealGrowingConditions": {
         "temperature": "Coconuts thrive in warm, tropical climates between 25°C and 30°C.",
         "soilType": "They prefer sandy, well-drained soils.",
@@ -401,7 +401,7 @@
     {
       "commonName": "Cotton",
       "bioName": "Gossypium",
-      "image": "./assets/Crop Images/cotton.jpg",
+      "image": "cotton.jpg",
       "idealGrowingConditions": {
         "temperature": "Cotton thrives in warm temperatures between 20°C and 30°C.",
         "soilType": "They prefer well-drained, fertile soils.",
@@ -422,7 +422,7 @@
     {
       "commonName": "Jute",
       "bioName": "Corchorus",
-      "image": "./assets/Crop Images/jute.jpg",
+      "image": "jute.jpg",
       "idealGrowingConditions": {
         "temperature": "Jute thrives in warm temperatures between 25°C and 35°C.",
         "soilType": "They prefer well-drained, fertile soils.",
@@ -443,7 +443,7 @@
     {
       "commonName": "Coffee",
       "bioName": "Coffea",
-      "image": "./assets/Crop Images/coffee.jpg",
+      "image": "coffee.jpg",
       "idealGrowingConditions": {
         "temperature": "Coffee plants thrive in temperatures between 15°C and 24°C.",
         "soilType": "They prefer well-drained, fertile soils rich in organic matter.",

@@ -4,8 +4,10 @@ import Header from "./Header";
 import bugPic from "../assets/Images/grove-1343739_1280.jpg";
 
 function CropInfo() {
+  
   const location = useLocation(); 
   const crop = location.state?.crop; 
+  console.log(crop.image)
   console.log("Crop data received:", crop);
   if (!crop) {
     return <h2>Crop not found!</h2>; 
@@ -20,7 +22,7 @@ function CropInfo() {
       {/* Hero Section */}
       <div
         className="relative flex h-screen bg-cover bg-center justify-center items-center mb-4"
-        style={{ backgroundImage: `url(${crop.image})` }} // Use the crop image
+        style={{ backgroundImage: `url(http://localhost:5173/assets/Crop%20Images/${crop.image})` }} // Use the crop image
       >
         <div className="absolute bottom-32 right-16 justify-center items-center text-center text-white text-5xl text-bold">
           {crop.commonName} ({crop.bioName}) {/* Display crop name */}

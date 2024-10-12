@@ -1,5 +1,10 @@
 import React from "react";
 import Header from "./Header";
+import { BiTestTube } from "react-icons/bi";
+import { GiPlantSeed, GiChemicalDrop } from "react-icons/gi"; 
+import { LiaCloudRainSolid } from "react-icons/lia";
+import { FaRulerVertical } from "react-icons/fa"; 
+import { LuThermometerSun } from "react-icons/lu";
 
 function TestManual() {
   return (
@@ -7,7 +12,7 @@ function TestManual() {
       {/* Header Section */}
       <Header />
       
-      {/* Equipment Description and Requirements   */}
+      {/* Equipment Description and Requirements */}
       <div className="bg-white p-8 rounded-lg shadow-lg mt-10">
         {/* Title */}
         <h2 className="text-4xl font-bold text-green-500 text-center underline mb-8">
@@ -23,10 +28,10 @@ function TestManual() {
 
         {/* Equipment Section */}
         <div className="grid grid-cols-3 gap-8">
-          {/* Tool 1 */}
+          {/* Tool 1: Soil Tester */}
           <div className="bg-green-100 rounded-lg shadow-lg p-6 text-center">
-            <h3 className="text-2xl font-bold text-green-700 mb-4">
-              Soil Tester
+            <h3 className="text-2xl font-bold text-green-700 mb-4 flex justify-center items-center">
+              <GiPlantSeed className="mr-2" /> Soil Tester
             </h3>
             <p className="text-lg text-green-600">
               Measures pH, moisture, and temperature for an in-depth soil
@@ -34,20 +39,20 @@ function TestManual() {
             </p>
           </div>
 
-          {/* Tool 2 */}
+          {/* Tool 2: Nitrogen Analyzer */}
           <div className="bg-green-100 rounded-lg shadow-lg p-6 text-center">
-            <h3 className="text-2xl font-bold text-green-700 mb-4">
-              Nitrogen Analyzer
+            <h3 className="text-2xl font-bold text-green-700 mb-4 flex justify-center items-center">
+              <GiChemicalDrop className="mr-2" /> Nitrogen Analyzer
             </h3>
             <p className="text-lg text-green-600">
               Evaluates the nitrogen content to optimize soil fertility.
             </p>
           </div>
 
-          {/* Tool 3 */}
+          {/* Tool 3: Phosphorus & Potassium Kit */}
           <div className="bg-green-100 rounded-lg shadow-lg p-6 text-center">
-            <h3 className="text-2xl font-bold text-green-700 mb-4">
-              Phosphorus & Potassium Kit
+            <h3 className="text-2xl font-bold text-green-700 mb-4 flex justify-center items-center">
+              <BiTestTube className="mr-2" /> Phosphorus & Potassium Kit
             </h3>
             <p className="text-lg text-green-600">
               Provides accurate readings of phosphorus and potassium levels for
@@ -55,10 +60,10 @@ function TestManual() {
             </p>
           </div>
 
-          {/* Tool 4 */}
+          {/* Tool 4: Temperature Probe */}
           <div className="bg-green-100 rounded-lg shadow-lg p-6 text-center">
-            <h3 className="text-2xl font-bold text-green-700 mb-4">
-              Temperature Probe
+            <h3 className="text-2xl font-bold text-green-700 mb-4 flex justify-center items-center">
+              <LuThermometerSun className="mr-2" /> Temperature Probe
             </h3>
             <p className="text-lg text-green-600">
               Measures the temperature of the soil to ensure optimal planting
@@ -66,10 +71,10 @@ function TestManual() {
             </p>
           </div>
 
-          {/* Tool 5 */}
+          {/* Tool 5: Rainfall Gauge */}
           <div className="bg-green-100 rounded-lg shadow-lg p-6 text-center">
-            <h3 className="text-2xl font-bold text-green-700 mb-4">
-              Rainfall Gauge
+            <h3 className="text-2xl font-bold text-green-700 mb-4 flex justify-center items-center">
+              <LiaCloudRainSolid className="mr-2" /> Rainfall Gauge
             </h3>
             <p className="text-lg text-green-600">
               Helps monitor local rainfall, vital for managing irrigation
@@ -77,10 +82,10 @@ function TestManual() {
             </p>
           </div>
 
-          {/* Tool 6 */}
+          {/* Tool 6: Humidity Tester */}
           <div className="bg-green-100 rounded-lg shadow-lg p-6 text-center">
-            <h3 className="text-2xl font-bold text-green-700 mb-4">
-              Humidity Tester
+            <h3 className="text-2xl font-bold text-green-700 mb-4 flex justify-center items-center">
+              <FaRulerVertical className="mr-2" /> Humidity Tester
             </h3>
             <p className="text-lg text-green-600">
               Measures the humidity levels in the surrounding environment, key

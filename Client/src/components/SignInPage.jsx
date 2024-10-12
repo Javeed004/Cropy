@@ -5,7 +5,7 @@ import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import WelcomeLogIn from "./Welcome";
 
-function SignInPage() {
+function SignInPage({ setIsAuthenticated }) {
   const [name, setName] = useState();
   const [email, setEmail] = useState();
   const [password, setPassword] = useState();
@@ -15,9 +15,10 @@ function SignInPage() {
   const handleSubmit = (e) => {
     e.preventDefault();
     axios
-      .post("http://localhost:5173/sign-up/sign-in", (name, email, password))
+      .post("http://localhost:5173/sign-up/sign-in", { name, email, password })
       .then((result) => {
-        console.log(result);
+        console.log("Successfully signed in");
+        setIsAuthenticated(true);
         navigate("/home-page");
       })
       .catch((error) => console.log(error));

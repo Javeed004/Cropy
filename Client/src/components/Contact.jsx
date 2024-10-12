@@ -68,7 +68,6 @@ function Contact() {
               type="text"
               className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-400"
               placeholder="Enter your name"
-              required
               onChange={(e) => setName(e.target.value)}
 
             />

@@ -16,6 +16,7 @@ function PasswordChange() {
       )
       .then((result) => {
         console.log(result);
+        console.log("Password changed successfully ");
         navigate("/sign-in");
       })
       .catch((error) => console.log(error));

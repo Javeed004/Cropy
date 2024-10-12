@@ -23,6 +23,7 @@ function SignUpPage() {
       )
       .then((result) => {
         console.log(result);
+        console.log("Successfully signed up");
         navigate("/sign-in");
       })
       .catch((error) => console.log(error));
