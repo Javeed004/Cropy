@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import Header from "./Header";
 import Footer from "./Footer";
 import bgImageHero from "../assets/Images/federico-respini-sYffw0LNr7s-unsplash.jpg";
@@ -7,11 +7,20 @@ import imageSCR from "../assets/Images/pexels-shvetsa-5231143.jpg";
 import imageSHA from "../assets/Images/pexels-pixabay-144248.jpg";
 import imageAbout from "../assets/Images/rice-field-7890204_1280.jpg";
 
-function Services() {
+function Services(isAuthenticated) {
+  let navigate = useNavigate();
+
+  const handleService = () => {
+    if (isAuthenticated === true) {
+      navigate("/services/scr");
+    }else{
+      console.log("Sign up to continue !!")
+    }
+  };
   return (
     <>
       {/* Header Section */}
-      <Header/>
+      <Header />
 
       {/* Hero section */}
       <div
@@ -44,12 +53,13 @@ function Services() {
             land, improving both yield and sustainability.
           </div>
           <div className="mt-4 py-4">
-            <Link
+            <button
+              onClick={handleService}
               to="/services/scr"
               className="text-xl text-gray bg-none px-12 py-4 rounded-xl border-2 border-gray"
             >
               Check it out
-            </Link>
+            </button>
           </div>
         </div>
         <div className="w-1/2 p-6">

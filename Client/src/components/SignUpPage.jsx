@@ -9,8 +9,6 @@ function SignUpPage() {
   const [name, setName] = useState();
   const [email, setEmail] = useState();
   const [password, setPassword] = useState();
-  const [phoneNum, setPhoneNum] = useState();
-  const [address, setAddress] = useState();
 
   const navigate = useNavigate();
 
@@ -19,7 +17,7 @@ function SignUpPage() {
     axios
       .post(
         "http://localhost:5173/sign-up",
-        (name, email, password, phoneNum, address)
+        (name, email, password)
       )
       .then((result) => {
         console.log(result);
@@ -60,20 +58,6 @@ function SignUpPage() {
               onChange={(e) => setEmail(e.target.value)}
             ></input>
             <input
-              type="number"
-              placeholder="Phone Number"
-              className="outline-none bg-transparent border border-zinc-500 px-5 h-10 rounded-full "
-              required
-              onChange={(e) => setPhoneNum(e.target.value)}
-            ></input>
-            <input
-              type="text"
-              placeholder="Address"
-              className="outline-none bg-transparent border border-zinc-500 px-5 h-10 rounded-full "
-              required
-              onChange={(e) => setAddress(e.target.value)}
-            ></input>
-            <input
               type="password"
               placeholder="Password"
               className="outline-none bg-transparent border border-zinc-500 px-5 h-10 rounded-full "
@@ -81,7 +65,7 @@ function SignUpPage() {
               onChange={(e) => setPassword(e.target.value)}
             ></input>
           </div>
-          <Link to={"//sign-up/sign-in"} className="text-blue-600 text-sm underline m-1">
+          <Link to={"/sign-up/sign-in"} className="text-blue-600 text-sm underline m-1">
             <p>Already have an account</p>
           </Link>
           <div>
