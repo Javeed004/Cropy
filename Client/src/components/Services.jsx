@@ -7,16 +7,13 @@ import imageSCR from "../assets/Images/pexels-shvetsa-5231143.jpg";
 import imageSHA from "../assets/Images/pexels-pixabay-144248.jpg";
 import imageAbout from "../assets/Images/rice-field-7890204_1280.jpg";
 
-function Services(isAuthenticated) {
+function Services() {
   let navigate = useNavigate();
 
   const handleService = () => {
-    if (isAuthenticated === true) {
-      navigate("/services/scr");
-    }else{
-      console.log("Sign up to continue !!")
-    }
+    navigate("/services/scr");
   };
+
   return (
     <>
       {/* Header Section */}
