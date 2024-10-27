@@ -4,7 +4,6 @@ import { useNavigate, Link } from "react-router-dom";
 import Header from "./Header";
 
 function SmartCropRec() {
-  
   const [N, setN] = useState();
   const [phosphorus, setphosphorus] = useState();
   const [potassium, setpotassium] = useState();

@@ -26,6 +26,12 @@ function Footer() {
           {/* Call-To-Action */}
           <nav className="mt-4 py-4 space-x-4">
             <Link
+              to="/sign-up"
+              className="text-xl text-white bg-green-400 px-12 py-4 rounded-xl "
+            >
+              SIGN UP
+            </Link>
+            <Link
               to="/contact"
               className="text-xl text-gray bg-white px-12 py-4 rounded-xl border-2 border-black/50"
             >

@@ -1,11 +1,34 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 function Header() {
+  const [isAuthenticated, setIsAuthenticated] = useState(false);
+
+  const handleSignOut = () => {
+    setIsAuthenticated(false);
+  };
 
   return (
     <header className="relative bg-green-400 p-4">
       <div className="max-w-full mx-auto">
+        {/* Top Right: Sign In/Sign Out Button */}
+        <div className="absolute right-4 top-4">
+          {!isAuthenticated ? (
+            <Link
+              to="/sign-up"
+              className="bg-white text-green-600 py-2 px-4 rounded-lg hover:bg-gray-200"
+            >
+              Sign In
+            </Link>
+          ) : (
+            <button
+              onClick={handleSignOut}
+              className="bg-white text-green-600 py-2 px-4 rounded-lg hover:bg-gray-200"
+            >
+              Sign Out
+            </button>
+          )}
+        </div>
 
         {/* Centered Logo */}
         <div className="flex justify-center items-center text-center">

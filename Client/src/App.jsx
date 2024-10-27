@@ -1,5 +1,8 @@
 import React from "react";
+import SignUpPage from "./components/SignUpPage";
+import SignInPage from "./components/SignInPage";
 import HomePage from "./components/HomePage";
+import PasswordChange from "./components/PasswordChange";
 import About from "./components/About";
 import Services from "./components/Services";
 import Contact from "./components/Contact";
@@ -19,6 +22,9 @@ function App() {
         <Route path="/about" element={<About />}></Route>
         <Route path="/services" element={<Services />}></Route>
         <Route path="/contact" element={<Contact />}></Route>
+        <Route path="/sign-up" element={<SignUpPage />}></Route>
+        <Route path="/sign-up/sign-in" element={<SignInPage />}></Route>
+        <Route path="/change-password" element={<PasswordChange />}></Route>
         <Route path="/services/scr" element={<SmartCropRec />}></Route>
         <Route path="/services/scr/scr-result" element={<ScrResult />}></Route>
         <Route path="/services/scr/scr-result/process" element={<TestManual />}></Route>
