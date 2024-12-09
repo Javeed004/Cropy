@@ -13,8 +13,8 @@ function Services(isAuthenticated) {
   const handleService = () => {
     if (isAuthenticated === true) {
       navigate("/services/scr");
-    }else{
-      console.log("Sign up to continue !!")
+    } else {
+      console.log("Sign up to continue !!");
     }
   };
   return (
@@ -82,19 +82,21 @@ function Services(isAuthenticated) {
         </div>
         <div className="w-1/2 p-6">
           <div className="text-3xl mb-4 font-bold">Soil Health Analysis</div>
-          <div className="text-wrap text-xl">
+          <div className="text-wrap text-xl mb-4">
             Analyze your soil’s nutrient composition with our integrated NPK
             sensor readings. Cropy helps you monitor essential soil nutrients
             like nitrogen, phosphorus, and potassium, ensuring optimal
             conditions for growth.
           </div>
-          <div className="mt-4 py-4">
-            <Link
-              to="/services/sha"
-              className="text-xl text-gray bg-none px-12 py-4 rounded-xl border-2 border-gray"
+
+          {/* Disabled Button */}
+          <div className="mt-4 flex justify-start">
+            <button
+              className="text-xl text-gray bg-none px-12 py-4 rounded-xl border-2 border-gray cursor-not-allowed"
+              disabled
             >
-              Analyse Now
-            </Link>
+              Coming Soon
+            </button>
           </div>
         </div>
       </div>
@@ -104,7 +106,7 @@ function Services(isAuthenticated) {
         Rainfall Prediction
       </div>
       <div className="grid grid-cols-3 gap-4 m-8">
-        <div className="p-6 bg-slate-300 rounded-lg ">
+        <div className="p-6 bg-slate-300 rounded-lg">
           <div className="text-2xl font-medium text-center mb-2">
             Real-Time Forecasts
           </div>
@@ -113,7 +115,7 @@ function Services(isAuthenticated) {
             your region.
           </div>
         </div>
-        <div className="p-6 bg-slate-200 rounded-lg ">
+        <div className="p-6 bg-slate-200 rounded-lg">
           <div className="text-2xl font-medium text-center mb-2">
             Rainfall Predictions
           </div>
@@ -121,7 +123,7 @@ function Services(isAuthenticated) {
             Plan your irrigation better with predictive insights on rainfall.
           </div>
         </div>
-        <div className="p-6 bg-slate-100 rounded-lg ">
+        <div className="p-6 bg-slate-100 rounded-lg">
           <div className="text-2xl font-medium text-center mb-2">
             Check Forecast
           </div>
@@ -131,16 +133,18 @@ function Services(isAuthenticated) {
           </div>
         </div>
       </div>
-      <div className="flex w-full justify-center items-center text-center mt-0 pb-6">
-        <Link
-          to="services//rp"
-          className="text-xl text-gray bg-none px-12 py-4 rounded-xl border-2 border-gray"
+
+      {/* Disabled Button */}
+      <div className="flex justify-center mt-4">
+        <button
+          className="text-xl text-gray font-semibold bg-none px-12 py-4 rounded-xl border-2 border-gray cursor-not-allowed"
+          disabled
         >
-          Analyse Now
-        </Link>
+          Coming Soon
+        </button>
       </div>
 
-      {/* Efficient Resource Management   */}
+      {/* Efficient Resource Management */}
       <div className="flex flex-row h-96 w-full mt-6 mb-4 bg-green-200 font-semibold">
         <div className="w-1/2 p-6">
           <div className="text-4xl mb-4 font-bold">
@@ -151,13 +155,14 @@ function Services(isAuthenticated) {
             Cropy’s resource management tools. Optimize your input costs and
             maximize your output by making informed decisions.
           </div>
-          <div className="flex w-full justify-start items-start text-start mt-0 py-2 px-0">
-            <Link
-              to="services//erm"
-              className="text-xl text-white bg-green-400 my-4 px-12 py-4 rounded-xl "
+          <div className="flex flex-col items-start justify-start mt-6 py-2">
+            {/* Disabled Button */}
+            <button
+              disabled
+              className="text-xl text-white bg-green-400 px-12 py-4 rounded-xl cursor-not-allowed"
             >
-              Manage Resources
-            </Link>
+              Comming Soon
+            </button>
           </div>
         </div>
         <div className="w-1/2 p-6">

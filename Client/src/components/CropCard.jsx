@@ -7,7 +7,6 @@ const CropCard = ({ crop }) => {
   const handleClick = () => {
     navigate("/crops-info/crop-info", { state: { crop } });
   };
-  console.log(crop.image)
 
 
   return (

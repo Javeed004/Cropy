@@ -17,15 +17,20 @@ function SmartCropRec() {
   const handleSubmit = (e) => {
     e.preventDefault();
     axios
-      .post(
-        "http://localhost:5173/services/scr",
-        (N, phosphorus, potassium, soilpH, temperature, humidity, rainfall)
-      )
-      .then((result) => {
-        console.log(result);
-        navigate("/services/scr/scr-result");
+      .post("http://127.0.0.1:5000/services/scr", {
+        N,
+        phosphorus,
+        potassium,
+        soilpH,
+        temperature,
+        humidity,
+        rainfall,
       })
-      .catch((error) => console.log(error));
+      .then((response) => {
+        const predictedCrop = response.data.cropName; // Replace with actual key from your response
+        navigate("/services/scr/scr-result", { state: { predictedCrop } });
+      })
+      .catch((error) => console.error("Error:", error));
   };
 
   return (
