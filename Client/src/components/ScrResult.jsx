@@ -46,11 +46,11 @@ function ScrResult() {
             <textarea
               value={
                 selectedCrop
-                  ? selectedCrop.reason
+                  ? selectedCrop.sustainabilityReason
                   : "No details available for this crop."
               }
               readOnly
-              className="w-full outline-none bg-transparent overflow-ellipsis overflow-hidden border border-zinc-500 px-3 min-h-52 rounded-lg"
+              className="w-full outline-none bg-transparent overflow-ellipsis overflow-hidden border border-zinc-500 px-3 min-h-24 rounded-lg"
             ></textarea>
 
             {/* Action Buttons */}

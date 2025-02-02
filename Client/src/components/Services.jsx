@@ -11,11 +11,7 @@ function Services(isAuthenticated) {
   let navigate = useNavigate();
 
   const handleService = () => {
-    if (isAuthenticated === true) {
       navigate("/services/scr");
-    } else {
-      console.log("Sign up to continue !!");
-    }
   };
   return (
     <>

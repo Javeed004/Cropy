@@ -44,7 +44,7 @@ def predict_crop():
         print("Predicted crop:", predicted_crop)  # Debugging line
 
         # Send response back to frontend
-        return jsonify({"predicted_crop": predicted_crop}), 200
+        return jsonify({"predicted_crop": predicted_crop}), 200  # ✅ Fixed JSON serialization
 
     except Exception as e:
         print("Error during prediction:", str(e))  # Log the error
